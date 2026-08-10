@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+
+data/
+output/
+
+# Raster / imagery
+*.tif
+*.tiff
+*.jp2
+
+# GIS vectors
+*.shp
+*.dbf
+*.shx
+*.prj
+*.gpkg
+
+# Model weights and checkpoints
+checkpoints/
+*.pth
+*.h5
+
+# Misc
+.env
+.vscode/
+.DS_Store
